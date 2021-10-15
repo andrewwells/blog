@@ -1,8 +1,8 @@
 language: ruby
-dist: focal
+# dist: focal
 cache: bundler
-# rvm:
-#   - 3.0.2
+rvm:
+  - 3.0.2
 addons:
   apt:
     packages:
